@@ -31,7 +31,7 @@ Additional information about the application:
 
 14.  A barebones RESTful Web API was developed with the application and can be found in the Controllers portion of the application.  
 
-15.  This appliction would be best run as a Virtual Studio 2019 solution using the following usernames and passwords: 
+15.  This appliction would be best run as a Visual Studio 2019 solution using the following usernames and passwords: 
 
      Username:  admin@vidly.com     Password: Employee#1
 	 Username:  employee@vidly.com  Password: Employee#2
