@@ -1,0 +1,10 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "051af6ee-0f98-47d0-9e0e-37765482801f"
+    }
+  }
+}

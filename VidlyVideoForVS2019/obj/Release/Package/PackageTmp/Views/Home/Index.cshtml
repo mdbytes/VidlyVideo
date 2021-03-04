@@ -1,0 +1,52 @@
+﻿@model Vidly.ViewModels.HomeViewModel
+
+@{
+
+}
+
+
+<span id="user-email" style="display:none;">@Model.UserEmail</span>
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-8">
+            <div id="site-title-holder">
+                <h1>Vidly Video</h1>
+            </div>
+
+
+            <p class="lead">Streaming movies to any device</p>
+            <p id="home-login"><a href="/Account/Login" class="btn btn-primary btn-lg">Login &raquo;</a></p>
+            <p id="home-register"><a href="/Account/Register" class="btn btn-primary btn-lg">Register &raquo;</a></p>
+            <p id="home-browse"><a href="../Movies" class="btn btn-primary btn-lg">Browse Movies &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <div id="logo-image-holder">
+                <img src="https://cdn.pixabay.com/photo/2013/07/13/01/21/popcorn-155602_960_720.png">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row">
+    <h3 style="text-align:center;">Customers Watching Now ... </h3>
+    <br />
+    <div class="col-md-4">
+        <p class="image-holder">
+            <img src="https://bit.ly/2z7Lvp7" />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <p class="image-holder">
+            <img src="https://bit.ly/3c6bvQd" />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <p class="image-holder">
+            <img src="https://bit.ly/2YAPGVd" />
+        </p>
+    </div>
+</div>
+
+

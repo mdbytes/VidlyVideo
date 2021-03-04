@@ -1,0 +1,219 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar {
+    background-color: #158cba;
+    height: 65px;
+}
+
+div.navbar.navbar-inverse.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li > a
+{
+    font-size: 150%;
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #FFFFFF;
+}
+
+
+.navbar-brand
+{
+    color:#FFFFFF;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding: 0px;
+    margin-right: 15px;
+    position: absolute;
+    top:0;
+    margin-top: 3px;
+
+}
+
+
+#logoutForm > ul > li > a,
+#registerLink,
+#loginLink {
+    font-size: 150%;
+    margin-top: 10px;
+
+    color: #FFFFFF;
+}
+
+.jumbotron {
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 10px;
+
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/04/08/10/seat-3197424_960_720.jpg);
+}
+
+#site-title-holder {
+    width: 100%;
+    padding: 0px;
+}
+
+.jumbotron .btn {
+    width: 125px;
+}
+
+#logo-image-holder {
+    float: right;
+    width: 65%;
+   
+   
+}
+
+#logo-image-holder img {
+    width: 100%;
+    height: auto;
+}
+
+
+#Customer_Name-error {
+    color: red;
+    font-weight: bold;
+}
+
+.input-validation-error {
+    border: 1px solid red;
+}
+
+body > div.container.body-content > table > tbody > tr > td:nth-child(1) {
+    max-width: 125px;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.image-holder {
+    max-width: 100%;
+
+}
+
+.image-holder img {
+    width: 100%;
+    max-height: 1000px;
+}
+
+.movie-list-image-holder {
+    max-width: 100%;
+}
+
+.movie-list-image-holder img {
+    width: 100%;
+    max-height: 425px;
+}
+
+.movie-detail-table th {
+    padding:2px 5px 2px 12px;
+    width: 100px;
+}
+
+.movie-detail-table td {
+    padding: 2px 0px 2px 0px;
+    width: 225px;
+}
+
+.movie-holder {
+    width:350px;
+    height: 650px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.movie-holder .btn-group {
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    
+}
+
+    .movie-holder .btn-group .btn {
+        margin: 15px 8px 0px 0px;
+        display: inline-block;
+        position: relative;
+        bottom: 0;
+    }
+
+    .front-page-posters {
+        height: 600px;
+    }
+
+
+.front-page-posters p img {
+    width: 350px;
+    height: auto;
+}
+
+.admin-functions {
+    position: absolute;
+    bottom: 10px;
+}
+
+.new-movie {
+    width: 100px;
+ 
+}
+
+
+#customer-list-table tbody tr, thead {
+    width: 100%
+}
+
+#customer-list-table thead th {
+    width: auto;
+}
+
+#customer-list-table tbody tr td {
+    width: 20%;
+}
+
+
+.customer-admin-functions {
+    
+}
+
+
+#customer-list tr td {
+    font-size: 150%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #158cba;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+

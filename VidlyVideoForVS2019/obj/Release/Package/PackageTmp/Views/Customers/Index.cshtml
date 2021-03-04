@@ -1,0 +1,56 @@
+﻿@model Vidly.ViewModels.CustomerListViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <h2>Customers</h2>
+
+    </div>
+    <div class="col-lg-6">
+        <div style="float:right;margin-top: 25px;margin-right: 50px;">
+            @Html.ActionLink("New Customer", "New", "Customers", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+<span id="user-email" style="display:none;">@Model.UserEmail</span>
+
+@if (!Model.Customers.Any())
+{
+    <p>We don't have any customers yet.</p>
+}
+else
+{
+    <table id="customer-list-table" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Customer</th>
+                <th>Membership Type</th>
+                <th>Discount Rate</th>
+                <th>Get's Newsletter?</th>
+                <th class="customer-admin-functions">Admin Functions</th>
+            </tr>
+        </thead>
+        <tbody id="customer-list">
+            @foreach (var customer in Model.Customers)
+            {
+                <tr>
+                    <td>@customer.Name</td>
+                    <td>@customer.MembershipType.Name</td>
+                    <td>@customer.MembershipType.DiscountRate%</td>
+                    <td>@customer.getSubsciptionStatusString()</td>
+                    <td class="customer-admin-functions">
+                        @Html.ActionLink("  Edit  ", "Edit", "Customers", new { id = customer.Id }, new { @class = "btn btn-primary", @style = "width:100px;" })
+                        @Html.ActionLink("Delete", "Delete", "Customers", new { id = customer.Id }, new { @class = "btn btn-primary", @style = "width:100px;" })
+
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}

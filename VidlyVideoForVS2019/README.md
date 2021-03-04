@@ -31,10 +31,4 @@ Additional information about the application:
 
 14.  A barebones RESTful Web API was developed with the application and can be found in the Controllers portion of the application.  
 
-15.  This appliction would be best run as a Virtual Studio 2019 solution using the following usernames and passwords: 
-
-     Username:  admin@vidly.com     Password: Employee#1
-	 Username:  employee@vidly.com  Password: Employee#2
-	 Username:  customer@vidly.com  Password: Customer#1
-
 "The Complete ASP.Net MVC Course" by Mosh Hamedani is available at https://www.udemy.com/course/the-complete-aspnet-mvc-5-course 
