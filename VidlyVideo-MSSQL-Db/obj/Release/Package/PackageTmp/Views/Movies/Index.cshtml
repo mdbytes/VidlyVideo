@@ -1,0 +1,50 @@
+﻿
+@model Vidly.ViewModels.MovieListViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>Movies</h2>
+
+        </div>
+        <div class="col-lg-6">
+            <div style="float:right;margin-top: 25px;margin-right: 50px;">
+                @Html.ActionLink("New Movie", "New", "Movies", null, new { @class = "new-movie btn btn-primary" })
+            </div>
+        </div>
+    </div>
+        <div style="clear:both;"></div>
+        <span id="user-email" style="display:none;">@Model.UserEmail</span>
+
+        @foreach (var movie in Model.Movies)
+        {
+
+<div class="col-md-3 movie-holder" style="text-align:center;">
+    <p class="movie-list-image-holder">
+        <img src=@movie.PosterURL />
+    </p>
+
+    <h4>@movie.Name</h4>
+    <table class="movie-detail-table" style="text-align:left;">
+        <tr><th>Name:</th><td>@movie.Name</td></tr>
+        <tr><th>Genre:</th><td>@movie.Genre</td></tr>
+        <tr><th>Release:</th><td>@movie.ReleaseDate.ToString("d MMM yyyy")</td></tr>
+        <tr><th>Added:</th><td>@movie.AddedDate.ToString("d MMM yyyy")</td></tr>
+
+    </table>
+
+    <div class="btn-group" role="group">
+        @Html.ActionLink("  Edit  ", "Edit", "Movies", new { id = movie.Id }, new { @class = "btn btn-primary admin-functions", @style = "width:100px;" })
+        @Html.ActionLink("Delete", "Delete", "Movies", new { id = movie.Id }, new { @class = "btn btn-primary admin-functions", @style = "width:100px;" })
+        @Html.ActionLink("Watch Now", "", "", null, new { @class = "btn btn-primary", @style = "width:100px;" })
+    </div>
+
+</div>
+
+
+        }
+
+

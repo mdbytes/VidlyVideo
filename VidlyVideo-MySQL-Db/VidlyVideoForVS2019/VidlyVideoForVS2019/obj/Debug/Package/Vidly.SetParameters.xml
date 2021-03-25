@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/" />
+  <setParameter name="MySQLDbConnection-Web.config Connection String" value="server=159.203.98.181;port=3306;database=vidly_video;uid=martin235;password=Be235Again!;" />
+</parameters>

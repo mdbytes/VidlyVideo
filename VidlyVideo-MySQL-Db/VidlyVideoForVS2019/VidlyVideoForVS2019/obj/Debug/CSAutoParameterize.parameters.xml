@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MySQLDbConnection-Web.config Connection String" description="MySQLDbConnection Connection String used in web.config by the application to access the database." defaultValue="server=159.203.98.181;port=3306;database=vidly_video;uid=martin235;password=Be235Again!;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\VidlyVideoForVS2019\\VidlyVideoForVS2019\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MySQLDbConnection']/@connectionString" />
+  </parameter>
+</parameters>
