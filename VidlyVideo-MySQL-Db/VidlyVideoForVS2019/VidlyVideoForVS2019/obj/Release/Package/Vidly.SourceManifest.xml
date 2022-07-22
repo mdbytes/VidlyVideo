@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="D:\SoftwareRepository\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Release\Package\PackageTmp" />
-  <setAcl path="D:\SoftwareRepository\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="D:\SoftwareRepository\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Release\Package\PackageTmp" />
+  <setAcl path="V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

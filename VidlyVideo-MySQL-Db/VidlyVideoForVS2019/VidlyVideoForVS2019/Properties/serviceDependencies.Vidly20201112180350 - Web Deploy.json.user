@@ -3,10 +3,6 @@
     "secrets1": {
       "restored": true,
       "restoreTime": "2020-11-20T21:07:39.6293133Z"
-    },
-    "mssql1": {
-      "restored": true,
-      "restoreTime": "2020-11-20T21:07:16.4739612Z"
     }
   },
   "parameters": {
@@ -24,16 +20,6 @@
       "Name": "Vidly20201112180350.resourceName",
       "Type": null,
       "Value": "Vidly20201112180350"
-    },
-    "mssql1.subscriptionId": {
-      "Name": "mssql1.subscriptionId",
-      "Type": "subscription",
-      "Value": "051af6ee-0f98-47d0-9e0e-37765482801f"
-    },
-    "mssql1.resourceGroupName": {
-      "Name": "mssql1.resourceGroupName",
-      "Type": "resourceGroup",
-      "Value": "Vidly20201112180350ResourceGroup"
     },
     "Vidly20201112180350.subscriptionId": {
       "Name": "Vidly20201112180350.subscriptionId",

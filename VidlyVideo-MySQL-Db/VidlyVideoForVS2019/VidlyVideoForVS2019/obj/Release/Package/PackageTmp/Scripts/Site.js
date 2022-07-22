@@ -37,7 +37,7 @@
             $('#home-login').css("display", "none");
             $('#home-register').css("display", "none");
             $('#home-browse').css("display", "block");
-        } else if (userIdentity === customerIdentity) {
+        } else if (userIdentity !== undefined) {
             $('#customers-nav').css("display","none");
             $('#movies-nav').css("display","block");
             $('#home-login').css("display", "none");
