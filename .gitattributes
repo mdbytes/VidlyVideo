@@ -1,6 +1,6 @@
 # For language reporting
 *.js linguist-detectable=false
 *.html linguist-detectable=false
-*.cshtml linguist-detectable=false
+*.cshtml linguist-language=C#
 # Updated 2023-12-15
 
