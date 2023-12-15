@@ -319,6 +319,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\Vidly20201120151245 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Vidly20220722094606 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Vidly20220722133838 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

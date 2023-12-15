@@ -616,10 +616,10 @@ V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS20
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\bin\Microsoft.Owin.Security.OAuth.xml
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.csprojAssemblyReference.cache
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.Migrations.mysqlsetup.resources
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.csproj.GenerateResource.cache
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.csproj.CopyComplete
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.dll
 V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.pdb
+V:\VidlyVideoForVS2019\VidlyVideo-MySQL-Db\VidlyVideoForVS2019\VidlyVideoForVS2019\obj\Debug\Vidly.csproj.AssemblyReference.cache
