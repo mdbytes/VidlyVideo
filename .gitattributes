@@ -1,5 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# For language reporting
 *.js linguist-detectable=false
 *.html linguist-detectable=false
 # Updated 2023-12-15
